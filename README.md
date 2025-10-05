@@ -12,39 +12,39 @@ Our responsibility is to prepare the loan dataset for analysis and modeling by p
 
 **Objectives**
 
-Examine and import the raw dataset (loan-data.csv).
+1. Examine and import the raw dataset (loan-data.csv).
 
-Clean and preprocess data to ensure accuracy and consistency.
+2. Clean and preprocess data to ensure accuracy and consistency.
 
-Convert monetary values from USD to EUR.
+3. Convert monetary values from USD to EUR.
 
-Transform categorical variables into numerical form through encoding or dummy variable creation.
+4. Transform categorical variables into numerical form through encoding or dummy variable creation.
 
-Handle missing values following risk-averse business rules defined by the data science team.
+5. Handle missing values following risk-averse business rules defined by the data science team.
 
-Document all transformations and export a finalized dataset for use in model development.
+6. Document all transformations and export a finalized dataset for use in model development.
 
 **Methodology**
 
 The preprocessing tasks include:
 
-Currency Conversion: Adjusting all financial values from USD to EUR.
+1. Currency Conversion: Adjusting all financial values from USD to EUR.
 
-Categorical Encoding: Converting qualitative information into numeric representations.
+2. Categorical Encoding: Converting qualitative information into numeric representations.
 
-Date Transformation: Extracting relevant time components (e.g., month of loan issue).
+3. Date Transformation: Extracting relevant time components (e.g., month of loan issue).
 
-Missing Data Handling: Applying column-specific imputation strategies reflecting conservative lending policies.
+4. Missing Data Handling: Applying column-specific imputation strategies reflecting conservative lending policies.
 
-Data Export: Saving the clean, structured dataset to a new CSV file for downstream modeling.
+5. Data Export: Saving the clean, structured dataset to a new CSV file for downstream modeling.
 
 **Technologies Used**
 
-Python
+> Python
 
-NumPy 
+> NumPy 
 
-Google Colab 
+> Google Colab 
 
 **Tip**:
 When writing your code in Google Colab, include clear comments before each code cell.
